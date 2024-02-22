@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "coin": "Bitcoin",
+    "price": 52000,
+    "avatar": "https://productimages.hepsiburada.net/s/22/375/9952480460850.jpg",
+    "value": "0.30",
+    "amount": 5000,
+    "symbol": "BTC"
+  },
+  {
+    "id": 2,
+    "coin": "Doge",
+    "price": 0.05,
+    "avatar": "https://productimages.hepsiburada.net/s/22/375/9952480460850.jpg",
+    "value": "2565",
+    "amount": 3000,
+    "symbol": "DG"
+  },
+  {
+    "id": 3,
+    "coin": "Etherium",
+    "price": 2754,
+    "avatar": "https://productimages.hepsiburada.net/s/22/375/9952480460850.jpg",
+    "value":"7",
+    "amount": 2000,
+    "symbol": "ETH"
+  },
+  {
+    "id": 4,
+    "coin": "Bitcoin",
+    "price": 52000,
+    "avatar": "https://productimages.hepsiburada.net/s/22/375/9952480460850.jpg",
+    "value": "0.30",
+    "amount": 5000,
+    "symbol": "BTC"
+  },
+  {
+    "id": 5,
+    "coin": "Doge",
+    "price": 0.05,
+    "avatar": "https://productimages.hepsiburada.net/s/22/375/9952480460850.jpg",
+    "value": "2565",
+    "amount": 3000,
+    "symbol": "DG"
+  },
+  {
+    "id": 6,
+    "coin": "Etherium",
+    "price": 2754,
+    "avatar": "https://productimages.hepsiburada.net/s/22/375/9952480460850.jpg",
+    "value":"7",
+    "amount": 2000,
+    "symbol": "ETH"
+  }
+]
