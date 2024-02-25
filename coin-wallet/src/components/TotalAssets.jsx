@@ -7,7 +7,7 @@ export default function TotalAssets({totalAmount}) {
 
   return (
     <div className="pt-3">
-      <Row className="mt-2 p-2" style={{ backgroundColor: "#FFF7F1" }}>
+      <Row className="mt-2 p-2" style={{ backgroundColor: "#F7F8F9" }}>
         <Col xs={2}>
           <img src="../assets/resim.jpg" />
         </Col>
@@ -18,7 +18,7 @@ export default function TotalAssets({totalAmount}) {
           </span>
         </Col>
       </Row>
-      <Row className="mt-2 p-2" style={{ backgroundColor: "#FFF7F1" }}>
+      <Row className="mt-2 p-2" style={{ backgroundColor: "#F7F8F9" }}>
         <Col xs={2}>
           <img src="../assets/resim.jpg" />
         </Col>

@@ -6,11 +6,11 @@ export default function Assets({product}) {
 
   return (
     
-    <Row className='mt-2' style={{backgroundColor:"#FEFBF6"}} >
-      <Col xs={2}>
+    <Row className='mt-3' style={{backgroundColor:"#F7F8F9"}} >
+      <Col  xs={2}>
         <Image src="../assets/resim2.jpg"/>
       </Col>
-      <Col xs={6} className='d-flex flex-column'>
+      <Col xs={6} className='d-flex flex-column justify-content-center'>
         <span style={{ fontSize: '1em',fontWeight: 600}}> {product.coin} </span>
         <span style={{ fontSize: '0.8em' }}>${product.price}</span>
       </Col>

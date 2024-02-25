@@ -5,27 +5,39 @@ export default function Buttons() {
     <Row className="text-center">
       <Col xs={4} className="d-grid">
         <Button
-          variant="info"
           className="text-white"
-          style={{ borderRadius: "1rem", fontWeight: 600 }}
+          style={{
+            border:"0",
+            borderRadius: "1rem",
+            fontWeight: 600,
+            backgroundColor: "#50B0C8",
+          }}
         >
           Send
         </Button>
-        </Col>
-        <Col xs={4} className="d-grid">
+      </Col>
+      <Col xs={4} className="d-grid">
         <Button
-          variant="info"
           className=" text-white"
-          style={{ borderRadius: "1rem", fontWeight: 600 }}
+          style={{
+            border:"0",
+            borderRadius: "1rem",
+            fontWeight: 600,
+            backgroundColor: "#50B0C8",
+          }}
         >
           Receive
         </Button>
-        </Col>
-        <Col xs={4} className="d-grid">
+      </Col>
+      <Col xs={4} className="d-grid">
         <Button
-          variant="info"
           className=" text-white"
-          style={{ borderRadius: "1rem", fontWeight: 600 }}
+          style={{
+            border:"0",
+            borderRadius: "1rem",
+            fontWeight: 600,
+            backgroundColor: "#50B0C8",
+          }}
         >
           Buy
         </Button>

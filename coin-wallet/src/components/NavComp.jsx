@@ -1,13 +1,15 @@
 import { Image, Row, Col, Button } from "react-bootstrap";
+import resim from "../assets/resim.jpg"
 
 export default function NavComp() {
   return (
     <Row className="mt-4">
       <Col className=" d-flex justify-content-between">
         <Image
-          src="../assets/resim2.jpg"
+          src={resim}
           roundedCircle
-          style={{ width: "30px", height: "30px",objectFit: "cover" }}
+          style={{ width: "40px", height: "40px",objectFit: "cover" }}
+          
         />
         <h5 style={{ color: "#232D3F" }}>My Wallet</h5>
         <Button

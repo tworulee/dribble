@@ -14,10 +14,10 @@ function AssetsButtons({selectedButton,setSelectedButton}) {
         <button
           className=" bg-white"
           style={{
-            color: selectedButton === "Crypto" ? "#31d2f2" : "black",
+            color: selectedButton === "Crypto" ? "#50B0C8" : "black",
             border: selectedButton === "Crypto" ? "none" : "none",
             borderBottom:
-              selectedButton === "Crypto" ? "3px solid #31d2f2" : "3px solid black",
+              selectedButton === "Crypto" ? "3px solid #50B0C8" : "3px solid black",
             fontWeight: 600,
             padding: "15px 40px",
           }}
@@ -30,10 +30,10 @@ function AssetsButtons({selectedButton,setSelectedButton}) {
         <button
           className="bg-white"
           style={{
-            color: selectedButton === "NFTs" ? "#31d2f2" : "black",
+            color: selectedButton === "NFTs" ? "#50B0C8" : "black",
             border: selectedButton === "NFTs" ? "none" : "none",
             borderBottom:
-              selectedButton === "NFTs" ? "3px solid #31d2f2" : "3px solid black",
+              selectedButton === "NFTs" ? "3px solid #50B0C8" : "3px solid black",
             fontWeight: 600,
             padding: "15px 40px",
           }}
