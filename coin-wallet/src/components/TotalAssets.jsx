@@ -2,13 +2,12 @@ import React from "react";
 import { Row, Col, Image } from "react-bootstrap";
 import products from "./products.json";
 
-export default function TotalAssets() {
-  const totalAmount = products.reduce((acc, curr) => acc + curr.amount, 0);
+export default function TotalAssets({totalAmount}) {
   const totalProperties = products.reduce((acc, curr) =>  curr.id, 0);
 
   return (
-    <div className="pt-2">
-      <Row className="mt-2" style={{ backgroundColor: "#FFF7F1" }}>
+    <div className="pt-3">
+      <Row className="mt-2 p-2" style={{ backgroundColor: "#FFF7F1" }}>
         <Col xs={2}>
           <img src="../assets/resim.jpg" />
         </Col>
@@ -19,7 +18,7 @@ export default function TotalAssets() {
           </span>
         </Col>
       </Row>
-      <Row className="mt-2" style={{ backgroundColor: "#FFF7F1" }}>
+      <Row className="mt-2 p-2" style={{ backgroundColor: "#FFF7F1" }}>
         <Col xs={2}>
           <img src="../assets/resim.jpg" />
         </Col>

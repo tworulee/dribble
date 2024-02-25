@@ -5,7 +5,7 @@ export default function NavComp() {
     <Row className="mt-4">
       <Col className=" d-flex justify-content-between">
         <Image
-          src="../assets/resim.jpg"
+          src="../assets/resim2.jpg"
           roundedCircle
           style={{ width: "30px", height: "30px",objectFit: "cover" }}
         />

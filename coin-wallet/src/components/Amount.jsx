@@ -1,11 +1,11 @@
 import { Col,Row,Badge } from 'react-bootstrap'
 
-function Amount() {
+function Amount({totalAmount}) {
   return (
     <Row>
       <Col className="d-flex justify-content-center">
       <h1>
-        <Badge className='text-black' bg="white">$550.34</Badge>
+        <Badge className='text-black' bg="white">${totalAmount}</Badge>
       </h1>
       </Col>
     </Row>
