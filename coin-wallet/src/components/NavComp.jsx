@@ -11,10 +11,10 @@ export default function NavComp() {
           style={{ width: "40px", height: "40px",objectFit: "cover" }}
           
         />
-        <h5 style={{ color: "#232D3F" }}>My Wallet</h5>
+        <h5 className="mt-2" style={{ color: "#232D3F" }}>My Wallet</h5>
         <Button
           className="text-secondary bg-white p-1 "
-          style={{ border: "none" }}
+          style={{ border: "none" ,fontWeight:500}}
         >
           X
         </Button>

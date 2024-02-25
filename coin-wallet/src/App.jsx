@@ -31,7 +31,7 @@ function App() {
         style={{
           width: "40vh",
           height: "65vh",
-          border: "2px solid #000",
+          border: "2px solid #adb5bd",
           borderRadius: "1rem",
         }}
       >
