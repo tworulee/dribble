@@ -9,6 +9,7 @@ import products from "./components/products.json";
 import TotalAssets from "./components/TotalAssets";
 import { useEffect, useState } from "react";
 import Properties from "./components/Properties";
+import BuyAssets from "./components/BuyAssets";
 
 function App() {
   const [selectedButton, setSelectedButton] = useState("Crypto");
@@ -22,12 +23,10 @@ function App() {
     );
   }, [products]);
 
-  console.log(totalAmount);
-
   return (
     <>
       <Container
-        className="mt-5"
+        className="mt-5 colorize"
         style={{
           width: "40vh",
           height: "65vh",
@@ -37,11 +36,19 @@ function App() {
       >
         <NavComp />
         <Amount totalAmount={totalAmount} />
-        <Buttons />
-        <AssetsButtons
+        <Buttons
           selectedButton={selectedButton}
           setSelectedButton={setSelectedButton}
         />
+
+        
+         {(selectedButton === "Buy" && (
+          <BuyAssets  selectedButton={selectedButton}
+          setSelectedButton={setSelectedButton} /> 
+        )) || (<AssetsButtons
+          selectedButton={selectedButton}
+          setSelectedButton={setSelectedButton}
+        />) } 
 
         {(selectedButton === "Crypto" && (
           <div
@@ -56,14 +63,19 @@ function App() {
               <Assets product={product} key={product.id} />
             ))}
           </div>
-        )) || (<div
+        )) || (selectedButton === "NFTs") && (
+          <div
             className="mt-2"
             style={{
               overflowY: "auto",
               overflowX: "hidden",
               height: "calc(70% - 120px)",
             }}
-          > <TotalAssets totalAmount={totalAmount} /> </div>)}
+          >
+            {" "}
+            <TotalAssets totalAmount={totalAmount} />{" "}
+          </div>
+        )}
         <Properties />
       </Container>
     </>
